@@ -1,0 +1,82 @@
+en firebase agregarle un nombre a cada profesor, y el año a los alumnos mejor no, se supone que un alumno puede ver
+documentos de todos los años
+instalar dependencia firebase
+
+useEffect en app.js para cargar ahi la variable global, capturando usuario logueado de firebase. en login y cerrar sesion no se modifica, simplemente se cierra sesion de firebase
+ahi tambien deberia guardarme el valor del rol del usuario, ya que si refrescas, solo se guardaria el usuario pero el navegador te va a aparecer como si no estuvieras logueado
+
+un alumno no deberia poder ver documentos de otra carrera, si de cualquier año, pero no de cualquier carrera 
+
+
+todos los componentes empiezan en el navegador, no por debajo ? ? ? ? ? ? 
+
+
+---------------------------------------------------------------
+
+
+ALUMNO Y PROFESOR:
+email
+rol
+nombre
+carrera 
+
+porque un alumno no puede ver los documentos de todas las cerreras, solo de la o las que este anotado. el catalogo y la busqueda se la reduzco a ese filtro digamo
+
+background gris
+
+
+--------------------------------------------------------
+
+global de modal cerrar  _/
+
+validaciones campos vacios  _/ 
+
+then catch en todos _/
+
+eliminar documento  _/
+
+estilo boton cerrar error  x
+
+boton cerrar modal  _/
+
+
+------------------------------------------------------------
+
+busqueda admin     _/
+
+email en tabla   _/
+
+comentar tema modal false en useEffect catalogo
+ 
+lista desplegable en rol  _/
+
+array de usuarios filtrar where rol != "administrador"   _/
+
+no se permiten emails iguales profesor
+
+mensajes de error  _/
+
+eliminar docuemntos al eliminar un usuario     _/
+
+.doble contraseña.
+
+filtros  _/
+
+
+--------------------------------------------------------------------------
+
+logo en icono pagina  _/
+
+estilo boton cerrar error  x    _/
+
+local storage para mantener logueado
+
+mensajes de satisfactorio al agregar documento o admin agregando usuario   _/
+
+pagina 1, 2, 3 cuando se llegue a determinada cantidad de tarjetas en el catalogo
+
+nombre usuario  en navegador responsivo
+
+login responsivo
+
+interfaz para profesor, alumno y admin cuando no hay nada subido
